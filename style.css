@@ -1,0 +1,175 @@
+body {
+    max-width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    position: relative;
+    margin: 0;
+    padding: 50px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    max-width: 100%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.sedans {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 200px;
+    padding: 30px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans img {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sedans .sedans-hd {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: bold;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+
+.sedans p {
+    padding-right: 30px;
+    padding-block: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button-one {
+    background-color:hsl(0, 0%, 95%);
+    border: none;
+    color:hsl(31, 77%, 52%);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-one:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.suvs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    padding: 30px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs img {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.suvs .suvs-hd {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: bold;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+
+.suvs p {
+    padding-right: 30px;
+    padding-block: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button-two {
+    background-color:hsl(0, 0%, 95%);
+    border: none;
+    color:hsl(184, 100%, 22%);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-two:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.luxury {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 30px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury img {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.luxury .luxury-hd {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: bold;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+
+.luxury p {
+    padding-right: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button-three {
+    background-color:hsl(0, 0%, 95%);
+    border: none;
+    color:hsl(179, 100%, 13%);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-three:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+.attribution {
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+}
