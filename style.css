@@ -173,3 +173,18 @@ body {
     text-align: center;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 580px) {
+    body {
+        max-width: 100%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .parents {
+        max-width: 100%;
+    }
+    .attribution {
+        margin-top: 10%;
+    }
+}
